@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "title": "Laptop Dell XPS 15",
+        "description": "Potente laptop con pantalla 4K y procesador Intel Core i7.",
+        "code": "Dell-XPS-15",
+        "price": 1799.99,
+        "status": true,
+        "stock": 25,
+        "category": "Laptops",
+        "thumbnails": "https://ejemplo.com/imagen1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Monitor LG UltraWide",
+        "description": "Monitor curvo de 34 pulgadas con resolución 4K.",
+        "code": "LG-UltraWide",
+        "price": 700,
+        "status": true,
+        "stock": 20,
+        "category": "Monitores",
+        "thumbnails": "https://ejemplo.com/imagen2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Teclado Mecánico Corsair K70",
+        "description": "Teclado mecánico RGB con interruptores Cherry MX.",
+        "code": "Corsair-K70",
+        "price": 129.99,
+        "status": true,
+        "stock": 50,
+        "category": "Teclados",
+        "thumbnails": "https://ejemplo.com/imagen3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Ratón Logitech MX Master 3",
+        "description": "Ratón inalámbrico avanzado con seguimiento de alta precisión.",
+        "code": "Logitech-MX-Master-3",
+        "price": 99.99,
+        "status": true,
+        "stock": 30,
+        "category": "Ratones",
+        "thumbnails": "https://ejemplo.com/imagen4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Disco Duro Externo Seagate Backup Plus",
+        "description": "Almacenamiento externo de 4 TB con conectividad USB 3.0.",
+        "code": "Seagate-Backup-Plus",
+        "price": 119.99,
+        "status": true,
+        "stock": 40,
+        "category": "Almacenamiento",
+        "thumbnails": "https://ejemplo.com/imagen5.jpg"
+    }
+]
