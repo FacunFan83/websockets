@@ -1,0 +1,65 @@
+<div class="container">
+    <div>
+        <h2>Cargar nuevo Producto</h1>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <input type="text" id="prodTitulo" class="form-control" placeholder="Titulo Producto" aria-label="Titulo Producto">
+                </div>
+                <div class="col">
+                    <input type="text" id="prodDesc" class="form-control" placeholder="Descripcion Producto"
+                        aria-label="Descripcion Producto">
+                </div>
+                <div class="col">
+                    <input type="text" id="prodCategoria" class="form-control" placeholder="Categoria Producto"
+                        aria-label="Categoria Producto">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <input type="text" id="prodCodigo" class="form-control" placeholder="Codigo Producto" aria-label="Codigo Producto">
+                </div>
+                <div class="col">
+                    <input type="text" id="prodPrecio" class="form-control" placeholder="Precio Producto" aria-label="Precio Producto">
+                </div>
+                <div class="col">
+                    <input type="text" id="prodStock" class="form-control" placeholder="Stock Producto" aria-label="Stock Producto">
+                </div>
+            </div>
+            <br>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Agregar Producto</button>
+            </div>
+    </div>
+
+    <div>
+        <h2>Lista de Productos</h1>
+            <br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">TITULO</th>
+                        <th scope="col">DESCRIPCION</th>
+                        <th scope="col">CODIGO</th>
+                        <th scope="col">PRECIO</th>
+                        <th scope="col">STOCK</th>
+                        <th scope="col">CATEGORIA</th>
+                    </tr>
+                </thead>
+                <tbody id="productsTable">
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
+<script src="/static/js/script.js"></script>

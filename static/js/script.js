@@ -1,7 +1,7 @@
 const socket = io() // Inicia la conexion
 
 // Evento clic en el boton de guardar nuevo producto
-document.querySelector('button').addEventListener('click', (e) => {
+document.querySelector('button')?.addEventListener('click', (e) => {
   try {
     // obtiene los valores de los input
     const prodTitulo = document.getElementById('prodTitulo').value

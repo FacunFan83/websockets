@@ -5,7 +5,7 @@ import { webRouter } from "./routers/webRouter.js"
 import { Server as IOServer } from "socket.io"
 import { ProductManajer as PM } from "./productManajer.js"
 
-const pm = new PM 
+export const pm = new PM 
 pm.init() 
 const app = express() 
 app.engine('handlebars', engine()) 
