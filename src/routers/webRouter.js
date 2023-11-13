@@ -3,13 +3,11 @@ import { pm } from "../main.js";
 export const webRouter = Router()
 
 webRouter.get('/', (req, res) => {
-    res.render('main', { titulo: 'Lista de Productos'})
+    const productos = pm.getAll()
+    res.render('main', { productos: productos })
+
 })
 
 webRouter.get('/realtimeproducts', (req, res) => {
-    res.render('realTimeProducts', { titulo: 'Productos en Tiempo Real'})
-})
-
-webRouter.get('/api/productos', (req, res) => {
-    res.json(pm.getAll())
+    res.render('realTimeProducts', { titulo: 'Productos en Tiempo Real' })
 })

@@ -15,17 +15,19 @@
                     </tr>
                 </thead>
                 <tbody id="productsTable">
+                    {{#each productos}}
                     <tr>
-                        <th scope="row"></th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <th scope="row">{{this.id}}</th>
+                        <td>{{this.title}}</td>
+                        <td>{{this.description}}</td>
+                        <td>{{this.code}}</td>
+                        <td>{{this.price}}</td>
+                        <td>{{this.stock}}</td>
+                        <td>{{this.category}}</td>
                     </tr>
+                    {{/each}}
                 </tbody>
             </table>
     </div>
 </div>
-<script src="/static/js/mainScript.js"></script>
+
